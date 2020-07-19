@@ -1,5 +1,4 @@
 # DIGIT!
------------------
 **digit** is a CLI to help you to dig into git history and make it **grepable**.
 
 ## Setup
