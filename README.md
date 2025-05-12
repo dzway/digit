@@ -21,7 +21,7 @@ Install digit is easy as one command line:
 
 ## Usage
 
-\`\`\`bash
+```bash
 # Display help
 ./digit
 
@@ -36,7 +36,7 @@ Install digit is easy as one command line:
 
 # Search with a custom pattern
 ./digit --pattern "your-regex-pattern"
-\`\`\`
+```
 
 ## Available Search Flags
 
@@ -62,12 +62,12 @@ When digit finds a match, it displays:
 - The full line containing the match for context
 
 Example output:
-\`\`\`
+```
 Object: 1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t
 File: src/config.js
 Password: password="secret123" (in: const config = { username: "admin", password="secret123", domain: "example.com" })
 IP: 192.168.1.1 (in: const serverIP = "192.168.1.1";)
-\`\`\`
+```
 
 This format provides complete context for each match, making it easier to understand how and where the sensitive information is being used.
 
