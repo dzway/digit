@@ -3,8 +3,8 @@
 # download digit
 unameOut="$(uname -s)"
 case "${unameOut}" in
-    Linux*)     wget --no-check-certificate --content-disposition https://raw.githubusercontent.com/dzway/digit/blob/master/bin/linux/digit;;
-    Darwin*)    wget --no-check-certificate --content-disposition https://raw.githubusercontent.com/dzway/digit/blob/master/bin/darwin/digit;;
+    Linux*)     wget --no-check-certificate --content-disposition https://raw.githubusercontent.com/dzway/digit/master/bin/linux/digit;;
+    Darwin*)    wget --no-check-certificate --content-disposition https://raw.githubusercontent.com/dzway/digit/master/bin/darwin/digit;;
     *)          echo "Sorry, there's no available package for your OS, contact github.com/dzway/digit."
 esac
 
